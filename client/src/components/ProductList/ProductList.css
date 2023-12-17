@@ -10,6 +10,28 @@
 
 .productListItems {
     display: flex;
+    flex-wrap: wrap;
     margin: 0 auto;
     padding: 20px;
+}
+
+.productListBtn {
+    margin: 0 45%;
+    background-color: #FF6666;
+    /* Light red base color */
+    color: #fff;
+    /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+
+    /* Shadow for depth */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    transition: opacity 0.3s ease-in-out;
+}
+
+.productListBtn:hover {
+    opacity: 0.8;
 }

@@ -1,0 +1,43 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #111;
+    color: #fff;
+}
+
+.footer__column {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer__column h4 {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.footer__column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__column li {
+    margin-bottom: 5px;
+}
+
+/* Style specific columns as needed */
+.footer__column:nth-child(5) {
+    /* Column 1 - Exclusive */
+    text-align: center;
+}
+
+.footer__groupIcon {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer__icon {
+    margin: 0 10px;
+}

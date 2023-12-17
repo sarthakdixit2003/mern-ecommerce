@@ -6,6 +6,10 @@
     max-width: 250px;
 }
 
+.productCardImg {
+    border-radius: 10px;
+}
+
 .productCard h5 {
     margin-top: 12px;
 }
