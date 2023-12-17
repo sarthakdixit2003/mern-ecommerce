@@ -1,0 +1,15 @@
+.productList-container {
+    margin: 30px 8%;
+}
+
+.productListTitle {
+    font-size: 25px;
+    font-weight: 700;
+    color: #FF6666;
+}
+
+.productListItems {
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+}

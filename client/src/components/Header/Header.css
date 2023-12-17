@@ -1,0 +1,126 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.transparent-background {
+  color: #666;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  border: none;
+  transition: background-color 0.1s;
+}
+
+.transparent-background:active,
+.transparent-background:hover {
+  color: #666 !important;
+  background-color: #fff !important;
+}
+
+/* Logo */
+.header__logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Search bar */
+.header__search {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.header__search input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+.header__search input:focus {
+  outline: none;
+  border-color: #000;
+}
+
+.header__search button {
+  margin-left: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.header__search button:hover {
+  background-color: #444;
+}
+
+.headerIcn {
+  font-size: 20px;
+}
+/* Navigation bar */
+.header__nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__nav-link {
+  padding: 10px;
+  margin: 0 10px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #666;
+  font-size: 20px;
+  transition: color 0.5s, text-decoration 0.5s;
+}
+
+.header__nav-link:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+/* Header actions */
+.header__actions {
+  display: flex;
+  align-items: center;
+}
+
+.header__wishlist,
+.header__cart {
+  margin-left: 10px;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  color: #666;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+
+.header__wishlist {
+  margin-right: 5px;
+}
+
+.header__wishlist:hover {
+  color: #ff2000;
+  background-color: #fff;
+}
+
+.header__cart:hover {
+  background-color: #fff;
+}
+
+.header__cart{
+  margin-right: 5px;
+}

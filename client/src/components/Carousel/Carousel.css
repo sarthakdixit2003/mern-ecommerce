@@ -1,0 +1,9 @@
+.custom-carousel-control {
+    background-color: #333;
+    border: 1px solid #333;
+}
+
+.custom-carousel-control:hover {
+    background-color: #555;
+    border: 1px solid #555;
+}

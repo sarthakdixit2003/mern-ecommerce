@@ -1,0 +1,21 @@
+.productCard {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    margin: 0 20px;
+    max-width: 250px;
+}
+
+.productCard h5 {
+    margin-top: 12px;
+}
+
+.productCard p {
+    margin-top: 10px;
+    color: #ff2000;
+}
+
+.productCardBadge {
+    display: flex;
+    max-width: 50px;
+}
