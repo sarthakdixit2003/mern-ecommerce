@@ -1,0 +1,41 @@
+.login-box {
+    padding: 20px;
+    width: 400px;
+    margin: 60px auto;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  p a {
+    color: #28a745;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .login-box a {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .login-box a:first-child {
+    font-style: italic;
+  }
