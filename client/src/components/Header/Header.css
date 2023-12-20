@@ -30,6 +30,7 @@
 
 /* Search bar */
 .header__search {
+  position: relative;
   margin-right: 20px;
   display: flex;
   align-items: center;
@@ -48,23 +49,12 @@
   border-color: #000;
 }
 
-.header__search button {
-  margin-left: 5px;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  background-color: #333;
-  color: #fff;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.header__search button:hover {
-  background-color: #444;
-}
-
 .headerIcn {
+  position: absolute;
+  right: 10px;
+  color: #666;
   font-size: 20px;
+  cursor: pointer;
 }
 /* Navigation bar */
 .header__nav {
@@ -92,12 +82,12 @@
 /* Header actions */
 .header__actions {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+  align-items: space-between;
 }
 
 .header__wishlist,
 .header__cart {
-  margin-left: 10px;
   padding: 10px 10px;
   border: none;
   border-radius: 50%;

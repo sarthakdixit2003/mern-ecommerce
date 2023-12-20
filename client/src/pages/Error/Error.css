@@ -18,3 +18,18 @@
     color: #3f3f3f;
 }
 
+.error button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: #fe2e2e;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.error button:hover {
+    background-color: #ff6666;
+}
+

@@ -49,18 +49,15 @@
     object-fit: cover;
 }
 
-.remove-button {
-    background-color: #f00;
-    color: #fff;
-    padding: 5px 10px;
-    border: none;
-    border-radius: 3px;
+.cartIcon {
+    color: #696969;
+    font-size: 30px;
     cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
+    transition: color 0.1s;
 }
 
-.remove-button:hover {
-    background-color: #c00;
+.cartIcon:hover {
+    color: #ff2000;
 }
 
 .cart-summary {

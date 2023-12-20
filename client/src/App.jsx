@@ -7,6 +7,7 @@ import Login from './pages/Login/Login';
 import About from './pages/About/About';
 import Error from './pages/Error/Error';
 import Cart from './pages/Cart/Cart';
+import Wishlist from './pages/Wishlist/Wishlist';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/about" element={<About />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/wishlist" element={<Wishlist />} />
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />

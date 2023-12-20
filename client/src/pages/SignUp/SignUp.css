@@ -7,30 +7,30 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
+.signup-box h2 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 1.5em;
 }
 
-form {
+.signup-box form {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-label {
+.signup-box label {
     font-weight: bold;
 }
 
-input {
+.signup-box input {
     padding: 8px;
     border: 1px solid #ddd;
     border-radius: 3px;
     font-size: 16px;
 }
 
-button {
+.signup-box button {
     padding: 10px 20px;
     border: none;
     border-radius: 3px;
@@ -41,11 +41,11 @@ button {
     transition: all 0.2s ease-in-out;
 }
 
-button:hover {
+.signup-box button:hover {
     background-color: #33b751;
 }
 
-p {
+.signup-box p {
     text-align: center;
     margin-top: 20px;
 }

@@ -1,41 +1,58 @@
+/* Center the login box and create space around it */
 .login-box {
-    padding: 20px;
-    width: 400px;
-    margin: 60px auto;
-    border-radius: 5px;
-    background-color: #e0e0e0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  h2 {
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 1.5em;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  p {
-    text-align: center;
-    margin-top: 10px;
-    font-size: 14px;
-  }
-  
-  p a {
-    color: #28a745;
-    font-weight: bold;
-    text-decoration: none;
-  }
-  
-  .login-box a {
-    display: inline-block;
-    margin: 0 5px;
-  }
-  
-  .login-box a:first-child {
-    font-style: italic;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px; /* Adjust as needed */
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #e0e0e0;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.login-box h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Form styling */
+.login-box form {
+  width: 100%;
+}
+
+/* Input fields styling */
+.login-box label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.login-box input[type="email"],
+.login-box input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Button styling */
+.login-box button[type="submit"] {
+  background-color: #007bff; /* Primary blue color */
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Link styling */
+.login-box p a {
+  color: #007bff;
+  text-decoration: none;
+}

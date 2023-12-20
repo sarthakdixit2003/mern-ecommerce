@@ -23,9 +23,7 @@ const Cart = () => {
 						<td>₹ 750</td>
 						<td>2</td>
 						<td>₹ 1400</td>
-						<td>
-							<button className="remove-button">Remove</button>
-						</td>
+						<td><i className="fa-solid fa-xmark cartIcon"></i></td>
 					</tr>
 
 					<tr>
@@ -33,9 +31,7 @@ const Cart = () => {
 						<td>₹ 750</td>
 						<td>2</td>
 						<td>₹ 1400</td>
-						<td>
-							<button className="remove-button">Remove</button>
-						</td>
+						<td><i className="fa-solid fa-xmark cartIcon"></i></td>
 					</tr>
 
 				</tbody>

@@ -1,0 +1,120 @@
+.wishlist-container {
+    /* Center the wishlist content */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.wishlist-title {
+    /* Font size and weight for the title */
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.wishlist-title:nth-of-type(2) {
+    /* Font size and weight for the title */
+    border-left: 20px solid #ff6666;
+    padding-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.move-all-to-cart-button {
+    /* Style the "Move All To Bag" button */
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    background-color: #f05454;
+    /* Red background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.1s;
+}
+
+.move-all-to-cart-button:hover {
+    background-color: #f05454;
+    opacity: 0.8;
+}
+
+.wishlist-items {
+    /* List style for wishlist items */
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.wishlist-item {
+    /* Style for each wishlist item */
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    margin: 20px 30px;
+}
+
+.wishlist-item-img-container {
+    position: relative;
+}
+
+.wishlist-item-image {
+    /* Size and spacing for the item image */
+    width: 100%;
+    height: auto;
+    margin-right: 15px;
+    border-radius: 0 0 5px 5px;
+}
+
+.wishlist-item-details {
+    /* Align item details vertically */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wishlist-item-details h3 {
+    margin: 15px 0 0 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.wishlist-item-details p {
+    text-align: left;
+    margin: 0 0 10px 0;
+    color: #fb8181;
+    font-weight: 700;
+}
+
+.add-to-cart-button {
+    /* Style the "Add To Cart" button */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    /* Blue background */
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+    transition: opacity 0.1s;
+}
+
+.add-to-cart-button i {
+    margin-right: 5px;
+}
+
+.add-to-cart-button:hover {
+    background-color: black;
+    opacity: 0.9;
+}
