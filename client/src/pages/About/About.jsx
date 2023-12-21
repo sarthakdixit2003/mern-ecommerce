@@ -9,8 +9,14 @@ const About = () => {
 				</div>
 				<div className="about-text">
 					<h2>Our Story</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam faucibus sapien eu neque sagittis, ut ullamcorper lectus condimentum. Duis ac vehicula justo. Donec auctor mauris ut turpis faucibus faucibus. Duis ullamcorper quam eu mauris luctus, a ullamcorper lectus scelerisque.</p>
-					<p>Maecenas vitae eros a turpis tincidunt ullamcorper. Donec ac odio euismod, scelerisque lectus ac, accumsan libero. Nam faucibus ornare lectus, ac tristique mauris semper vel.</p>
+					<p>
+						🌟 Our Story: A Journey of Artistry and Tradition
+						Welcome to CraftHubb, where every product tells a story - a story of skilled hands, timeless traditions, and the love for craftsmanship.
+						In the heart of India, where art and culture intertwine, our journey begins. Born out of a passion for preserving and promoting traditional crafts, we embarked on a mission to bring the beauty of handcrafted treasures to the world.
+					</p>
+					<p>The Artisan's Touch:
+						Our artisans, the backbone of our brand, hail from diverse communities, each with a unique craft passed down through generations. From the intricate patterns of handwoven textiles to the delicate artistry of ceramics, and the enduring elegance of metal crafts - every piece in our collection reflects the dedication and expertise of these master craftsmen.
+					</p>
 					<button className="about-cta">Learn More</button>
 				</div>
 			</div>

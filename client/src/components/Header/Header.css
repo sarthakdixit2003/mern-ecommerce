@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
   background-color: #f2f2f2;
 }
 
@@ -21,11 +21,19 @@
   background-color: #fff !important;
 }
 
+.header__menu {
+  flex: 1;
+}
+
 /* Logo */
 .header__logo {
-  font-size: 24px;
-  font-weight: bold;
-  color: #000;
+  flex: 2;
+}
+
+.header__logo-img {
+  cursor: pointer;
+  width: 70px;
+  height: auto;
 }
 
 /* Search bar */
@@ -58,6 +66,7 @@
 }
 /* Navigation bar */
 .header__nav {
+  flex: 5;
   display: flex;
   list-style: none;
   margin: 0;
@@ -81,6 +90,7 @@
 
 /* Header actions */
 .header__actions {
+  flex: 2;
   display: flex;
   justify-content: space-between;
   align-items: space-between;

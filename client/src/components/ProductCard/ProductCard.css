@@ -10,8 +10,14 @@
     border-radius: 10px;
 }
 
+.productCard a {
+    text-decoration: none;
+}
+
 .productCard h5 {
     margin-top: 12px;
+    color: black;
+    text-decoration: none;
 }
 
 .productCard p {

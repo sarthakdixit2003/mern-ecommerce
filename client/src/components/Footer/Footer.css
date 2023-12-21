@@ -24,6 +24,15 @@
 
 .footer__column li {
     margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.footer__column li:hover {
+    text-decoration: underline;
+}
+
+.footer__column i {
+    cursor: pointer;
 }
 
 /* Style specific columns as needed */

@@ -1,8 +1,9 @@
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 const Header = () => (
 	<header className="header">
-		<div className="header__manu">
+		<div className="header__menu">
 			<button className="btn btn-primary transparent-background" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i className="fas fa-bars"></i></button>
 			<div className="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
 				<div className="offcanvas-header">
@@ -142,24 +143,20 @@ const Header = () => (
 			</div>
 		</div>
 		<div className="header__logo">
-			Your Logo Here
+			<img src='/images/logo.jpg' alt="My Image" className='header__logo-img' />
 		</div>
 		<nav className="header__nav">
-			<a href="#" className="header__nav-link">Home</a>
-			<a href="#" className="header__nav-link">Contact</a>
-			<a href="#" className="header__nav-link">About</a>
-			<a href="#" className="header__nav-link">Sign Up</a>
+			<Link to="/" className='header__nav-link'>Home</Link>
+			<Link to="/" className='header__nav-link'>Contact</Link>
+			<Link to="/about" className='header__nav-link'>About</Link>
+			<Link to="/signup" className='header__nav-link'>Sign Up</Link>
 		</nav>
 		<div className="header__actions">
 			<div className="header__search">
 				<input type="text" placeholder="Search products..." /><i className="headerIcn fa-solid fa-magnifying-glass"></i>
 			</div>
-			<button className="header__wishlist">
-				<i className="fa-regular fa-heart"></i>
-			</button>
-			<button className="header__cart">
-				<i className="fa-solid fa-cart-shopping"></i>
-			</button>
+			<Link to="/wishlist"><i className="header__wishlist fa-regular fa-heart"></i></Link>
+			<Link to="/cart"><i className="header__cart fa-solid fa-cart-shopping"></i></Link>
 		</div>
 	</header>
 );

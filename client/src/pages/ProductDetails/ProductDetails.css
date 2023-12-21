@@ -1,0 +1,127 @@
+.product-details-container {
+    /* Overall layout and spacing */
+    margin: 30px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 50px;
+}
+
+.product-image {
+    /* Size and positioning of the image */
+    width: 100%;
+    /* Adjust as needed */
+    height: auto;
+    /* Adjust as needed */
+
+}
+
+.product-info {
+    /* Styling for product information */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    max-width: 500px;
+    width: 100%;
+    flex-direction: column;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.product-info h1 {
+    margin: 0;
+    text-align: left;
+}
+
+.product-description {
+    /* Font size and spacing for description */
+    padding-bottom: 20px;
+    text-align: justify;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #a7a7a7;
+}
+
+.product-price {
+    /* Font weight and color for price */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-weight: bold;
+    color: #ff6666;
+} 
+ 
+.product-price span:nth-of-type(1) {
+    margin-top: 8px;
+    width: 60px;
+}
+
+.product-price span:nth-of-type(2) {
+    margin: 20px 0;
+    width: 100px;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.productAddCartButton {
+    /* Button styling */
+    background-color: #ff6666;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-icon-container {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 10px 20px;
+}
+
+.product-card:nth-of-type(1) {
+    border: 1px solid #8f8f8f;
+    border-radius: 10px 10px 0 0;
+}
+
+.product-card:nth-of-type(2) {
+    border: 1px solid #8f8f8f;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+}
+
+.product-card span {
+    padding: 14px 20px;  
+    background-color: black;
+    color: #ffffff;
+    font-size: 25px;
+    border-radius: 50%;
+}
+
+.product-icon-body {
+    margin-left: 10px;
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.product-icon-body h5 {
+    font-size: 16px;
+    margin: 0;
+    text-align: justify;
+}
+
+.product-icon-body p {
+    font-size: 14px;
+    margin: 0;
+    text-align: justify;
+}
